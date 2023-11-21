@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mercredi</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Votre contenu HTML -->
+</body>
+</html>
+
+<div style="position: relative;">
+<h2><p voici un <spam style="font-size:40px;">Description de la série:</spam></P></h2><p1>Mercredi (Wednesday) est une série
+ télévisée américaine créée par Alfred Gough et Miles Millar, qui est en cours de diffusion depuis le 23 novembre 2022 sur la
+ plateforme Netflix. La réalisation a été confiée à James Marshall, Gandja Monteiro et Tim Burton, qui officie également en 
+ tant que producteur délégué.
+
+Elle est centrée sur le personnage de Mercredi Addams (Wednesday Addams en VO), issu des bandes dessinées La Famille Addams 
+créées par Charles Addams.
+
+Plutôt bien accueillie par la critique, qui salue notamment la prestation de l'actrice principale Jenna Ortega et du reste de
+ la distribution, elle est devenue dans les trois semaines suivant sa sortie l'un des plus grands succès de l'histoire de 
+ Netflix et la série de Netflix la plus regardée dans 83 pays.
+
+En 2023, la série est nommée aux Golden Globes dans les catégories meilleure série télévisée musicale ou comique et meilleure 
+actrice dans une série musicale ou comique pour Jenna Ortega.
+</p1>         
+ <br><br
+
+<h2><p voici un <spam style="font-size:40px;">Sinopsis:</spam></P></h2>
+   <p>Mercredi Addams est envoyée par ses parents, Gomez et Morticia, au sein de la Nevermore Academy, à Jericho dans 
+   le Vermont, après avoir été une nouvelle fois expulsée d'un lycée. Nevermore est un établissement pour enfants particuliers, 
+   dirigé d'une main de fer par Larissa Weems, l'ancienne colocataire de Morticia lorsque toutes deux y étaient étudiantes.
+
+Mercredi doit alors appréhender cette nouvelle vie, tout en enquêtant sur une série de meurtres qui terrorisent Jericho et
+ en essayant de maîtriser les visions qu'elle a depuis quelques mois.</p>         
+ <br><br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regarder une Série</title>
+    <style>
+        /* Style pour centrer la vidéo et la barre de progression */
+        #video-container {
+            text-align: center;
+        }
+        #episode-bar {
+            width: 80%;
+            margin: 20px auto;
+        }
+        #description {
+            margin-top: 20px;
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="video-container">
+        <iframe id="serieVideo" width="800" height="450" src="https://app.videas.fr/embed/media/efd0dd01-b0ab-41a5-892e-06f6544db859/" frameborder="0" allowfullscreen></iframe>
+
+        <input type="range" id="episode-bar" value="0" step="1" min="0" max="100" oninput="changerEpisode()" onclick="sauterEpisode(event)">
+        <p id="episode-label" style="color: #4CAF50;">Épisode: 1</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercredi</title>
+  <style>
+    /* Ajoutez du style CSS pour le bouton */
+    .accueil-btn {
+      background-color: red;
+      color: white;
+      font-weight: bold;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Ajoutez le bouton avec un lien vers l'accueil -->
+  <a href="file:///C:/Users/merveilloisngameniku/Desktop/ma%20page%20web/Ma%20page%20web%20index.html" class="accueil-btn">Accueil</a>
+
+  <!-- Le reste du contenu de votre page -->
+
+</body>
+</html>
+        <button onclick="episodePrecedent()">Épisode Précédent</button>
+        <button onclick="episodeSuivant()">Épisode Suivant</button>
+
+        <div id="description">
+            <h3 style="color: #4CAF50;">Description de l'épisode</h3>
+            <p id="episode-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+        </div>
+    </div>
+
+    <script>
+	    var episodes = [
+            { link: "https://app.videas.fr/embed/media/efd0dd01-b0ab-41a5-892e-06f6544db859/", description: "<p1>Mercredi porte-malheur:</p1> Quand Mercredi se fait renvoyer à cause d'une farce particulièrement mordante, ses parents l'expédient à l'Académie Nevermore, le pensionnat où ils sont tombés amoureux." },
+            { link: "https://app.videas.fr/embed/media/7e1672ab-1f8d-4762-9876-d16b51d4d345/", description: "Description de l'épisode 2" },
+            { link: "https://app.videas.fr/embed/media/fa2de046-0b8c-4f26-8a55-9ece69f194c1/", description: "Description de l'épisode 3" },
+            { link: "https://app.videas.fr/embed/media/dbe1f480-c556-44cd-b150-e68e9f721ffe/", description: "Description de l'épisode 4" },
+            { link: "https://app.videas.fr/embed/media/0a1126fe-252f-44f5-8819-ee24bd2a6a25/", description: "Description de l'épisode 5" },
+            { link: "https://app.videas.fr/embed/media/403203d5-8ee4-46ad-a22f-956c09e18266/", description: "Description de l'épisode 6" },
+            { link: "https://app.videas.fr/embed/media/4121b873-1781-4b5c-8b72-35a43a8f2c93/", description: "Description de l'épisode 7" },
+            { link: "https://app.videas.fr/embed/media/c295013d-981d-4146-9e03-977dab46270d/", description: "Description de l'épisode 8" }
+            // Ajoutez les liens pour les autres épisodes
+        ];
+		
+		
+		
+
+        var numeroEpisode = 0;
+
+        function changerEpisode() {
+            // Récupérer les éléments
+            var video = document.getElementById("serieVideo");
+            var episodeBar = document.getElementById("episode-bar");
+            var episodeLabel = document.getElementById("episode-label");
+
+            // Calculer la nouvelle position de la vidéo en fonction de la barre de progression
+            var nouvellePosition = (episodeBar.value / 100) * video.duration;
+
+            // Mettre à jour la position de la vidéo
+            video.currentTime = nouvellePosition;
+
+            // Mettre à jour l'étiquette de l'épisode
+            episodeLabel.innerHTML = "Épisode: " + (numeroEpisode + 1);
+
+            // Mettre à jour la description de l'épisode
+            document.getElementById("episode-description").innerHTML = episodes[numeroEpisode].description;
+        }
+
+        function sauterEpisode(event) {
+            // Récupérer les éléments
+            var video = document.getElementById("serieVideo");
+            var episodeBar = document.getElementById("episode-bar");
+
+            // Calculer la position en pourcentage sur la barre de progression en fonction du clic
+            var pourcentageClic = (event.clientX - episodeBar.getBoundingClientRect().left) / episodeBar.offsetWidth;
+            
+            // Mettre à jour la position de la barre de progression
+            episodeBar.value = pourcentageClic * 100;
+
+            // Appeler la fonction pour changer la position de la vidéo
+            changerEpisode();
+        }
+
+        function episodeSuivant() {
+            if (numeroEpisode < episodes.length - 1) {
+                // S'il reste des épisodes, passer au suivant
+                numeroEpisode++;
+                document.getElementById("serieVideo").src = episodes[numeroEpisode].link;
+
+                // Mettre à jour l'étiquette de l'épisode
+                document.getElementById("episode-label").innerHTML = "Épisode: " + (numeroEpisode + 1);
+
+                // Mettre à jour la description de l'épisode
+                document.getElementById("episode-description").innerHTML = episodes[numeroEpisode].description;
+            } else {
+                // Vous avez atteint le dernier épisode, vous pouvez ajouter une logique supplémentaire ici
+                alert("Vous avez atteint le dernier épisode.");
+            }
+        }
+
+        function episodePrecedent() {
+            if (numeroEpisode > 0) {
+                // S'il y a un épisode précédent, passer à celui-ci
+                numeroEpisode--;
+                document.getElementById("serieVideo").src = episodes[numeroEpisode].link;
+
+                // Mettre à jour l'étiquette de l'épisode
+                document.getElementById("episode-label").innerHTML = "Épisode: " + (numeroEpisode + 1);
+
+                // Mettre à jour la description de l'épisode
+                document.getElementById("episode-description").innerHTML = episodes[numeroEpisode].description;
+            } else {
+                // Vous êtes déjà au premier épisode
+                alert("Vous êtes déjà au premier épisode.");
+            }
+        }
+
+        // Charger le premier épisode au chargement de la page
+        window.onload = function() {
+            episodeSuivant();
+        };
+    </script>
+<br><br><br>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

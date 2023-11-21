@@ -1,0 +1,74 @@
+body {
+    background-color: 	#9370DB; /* Violet clair en code hexadécimal */
+}
+
+
+.container {
+      width: 1000px; /* Vous pouvez ajuster la taille du carré selon vos besoins */
+      height: 130px;
+      background-color:#90EE90; /* Couleur de fond */
+      align-items: center;
+      justify-content: center;
+	  border:10px solid purple
+    }
+ 
+.image-cercle {
+  border-radius:; /* Cette propriété rendra l'image circulaire en utilisant un rayon de 50% */
+  width: 500px; /* Définissez la largeur souhaitée pour votre image circulaire */
+  height: 200px; /* Définissez la hauteur souhaitée pour votre image circulaire */
+  border: 2px solid red;
+  
+}
+
+
+
+
+body {
+  margin: 0;
+}
+
+.dashboard {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dashboard-item {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-item:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
